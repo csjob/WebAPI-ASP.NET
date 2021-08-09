@@ -9,12 +9,38 @@ using EmployeeData;
 namespace WebApiEmployee.Controllers
 {
     public class EmployeeController : ApiController
-    {
-        public IEnumerable<Employee> Get()
+    {    
+        /*[HttpGet]
+        public IEnumerable<Employee> Data()
         {
             using(EmployeeDBEntities entities = new EmployeeDBEntities())
             {
                 return entities.Employees.ToList();
+            }
+        }*/
+
+        //Query string Parameter
+        public HttpResponseMessage Get(string gender = "All")
+        {
+            using (EmployeeDBEntities entities = new EmployeeDBEntities())
+            {
+                switch (gender.ToLower())
+                {
+                    case "all":
+                        return Request.CreateResponse(HttpStatusCode.OK, entities.Employees.ToList() );
+
+                    case "male":
+                        return Request.CreateResponse(HttpStatusCode.OK,
+                             entities.Employees.Where(e => e.Gender.ToLower() == "male").ToList() );
+
+                    case "female":
+                        return Request.CreateResponse(HttpStatusCode.OK,
+                             entities.Employees.Where(e => e.Gender.ToLower() == "female").ToList());
+
+                    default:
+                        return Request.CreateErrorResponse(HttpStatusCode.BadRequest,
+                            "Value for gender must be All, Male or Female " + gender + " is invalid ");
+                }
             }
         }
 
@@ -87,7 +113,7 @@ namespace WebApiEmployee.Controllers
             }
         }
 
-        public HttpResponseMessage Put(int id, [FromBody] Employee employee)
+        public HttpResponseMessage Put( int id, [FromUri] Employee employee)
         {
             try
             {

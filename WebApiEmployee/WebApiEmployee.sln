@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEmployee", "WebApiEmp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeData", "..\EmployeeData\EmployeeData.csproj", "{F1D58E03-6B79-49DB-BAE9-F90A8C3F54BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "..\ClientApplication\ClientApplication.csproj", "{7D6BD9F5-64B7-43AA-A11E-B1D691CF0CDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F1D58E03-6B79-49DB-BAE9-F90A8C3F54BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D58E03-6B79-49DB-BAE9-F90A8C3F54BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D58E03-6B79-49DB-BAE9-F90A8C3F54BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6BD9F5-64B7-43AA-A11E-B1D691CF0CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6BD9F5-64B7-43AA-A11E-B1D691CF0CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6BD9F5-64B7-43AA-A11E-B1D691CF0CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6BD9F5-64B7-43AA-A11E-B1D691CF0CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

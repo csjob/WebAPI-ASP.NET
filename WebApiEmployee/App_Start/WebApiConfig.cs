@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebApiContrib.Formatting.Jsonp;
 
 namespace WebApiEmployee
 {
@@ -23,8 +24,12 @@ namespace WebApiEmployee
             //config.Formatters.Remove(config.Formatters.XmlFormatter);
 
             //for json indent
-           // config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
+            // config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.Json.Formatting.Indented;
 
+
+            //for jsonp
+           // var jsonpFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
+           // config.Formatters.Insert(0, jsonpFormatter);
         
         }
     }
