@@ -184,3 +184,6 @@ D:\visual studio workspace\WebApi\WebApiEmployee\obj\Debug\WebApiEmployee.dll
 D:\visual studio workspace\WebApi\WebApiEmployee\obj\Debug\WebApiEmployee.pdb
 D:\visual studio workspace\WebApi\WebApiEmployee\bin\WebApiContrib.Formatting.Jsonp.dll
 D:\visual studio workspace\WebApi\WebApiEmployee\bin\WebApiContrib.Formatting.Jsonp.pdb
+D:\visual studio workspace\WebApi\WebApiEmployee\bin\System.Web.Cors.dll
+D:\visual studio workspace\WebApi\WebApiEmployee\bin\System.Web.Http.Cors.dll
+D:\visual studio workspace\WebApi\WebApiEmployee\bin\System.Web.Http.Cors.xml

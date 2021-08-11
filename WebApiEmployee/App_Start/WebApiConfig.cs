@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using WebApiContrib.Formatting.Jsonp;
 
 namespace WebApiEmployee
@@ -28,9 +29,13 @@ namespace WebApiEmployee
 
 
             //for jsonp
-           // var jsonpFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
-           // config.Formatters.Insert(0, jsonpFormatter);
-        
+            // var jsonpFormatter = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
+            // config.Formatters.Insert(0, jsonpFormatter);
+
+
+            //for CORS
+            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(cors);
         }
     }
 }

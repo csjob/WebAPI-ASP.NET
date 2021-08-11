@@ -10,3 +10,15 @@ D:\visual studio workspace\EmployeeData\obj\Debug\EmployeeData.csproj.CoreCompil
 D:\visual studio workspace\EmployeeData\obj\Debug\EmployeeData.csproj.CopyComplete
 D:\visual studio workspace\EmployeeData\obj\Debug\EmployeeData.dll
 D:\visual studio workspace\EmployeeData\obj\Debug\EmployeeData.pdb
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EmployeeData.dll.config
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EmployeeData.dll
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EmployeeData.pdb
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EntityFramework.dll
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EntityFramework.SqlServer.dll
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EntityFramework.xml
+D:\visual studio workspace\WebApi\EmployeeData\bin\Debug\EntityFramework.SqlServer.xml
+D:\visual studio workspace\WebApi\EmployeeData\obj\Debug\EmployeeData.csproj.AssemblyReference.cache
+D:\visual studio workspace\WebApi\EmployeeData\obj\Debug\EmployeeData.csproj.CoreCompileInputs.cache
+D:\visual studio workspace\WebApi\EmployeeData\obj\Debug\EmployeeData.csproj.CopyComplete
+D:\visual studio workspace\WebApi\EmployeeData\obj\Debug\EmployeeData.dll
+D:\visual studio workspace\WebApi\EmployeeData\obj\Debug\EmployeeData.pdb
